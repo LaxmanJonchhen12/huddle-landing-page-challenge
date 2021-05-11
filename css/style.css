@@ -116,11 +116,44 @@ footer{
 
 
 #main-illustration{
-    height: 200px;
+    height: 250px;
     margin-top: 1.6rem;
     margin-left: 4rem;
+}
+
+#main-tag{
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-left: 5rem;
+ margin-top: 2.2rem;
+}
+
+#main-intro{
+  font-size: 0.9rem;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+}
 
 
+#reg{
+  margin-left: 6rem;
+  margin-top: 2rem;
+  height: 3rem;
+  width: 13rem;
+}
 
+#soc-row{
+  margin-left: 10rem;
+   /*margin-top: 0.5rem;*/
+}
+
+#social-media{
+  margin-top: 4rem;
+}
+
+footer{
+  position: absolute;
+    top: 770px;
+}
 
 }
