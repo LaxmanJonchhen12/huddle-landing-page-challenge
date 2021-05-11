@@ -4,63 +4,123 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
 }
 
-#container {
-  background: hsl(257, 40%, 49%);
-}
 
-#logo {
-  height: 35px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-#main-bg {
-  background-image: url("../images/bg-mobile.svg");
+#container{
+  height: 100vh;
+  background-image: url(../images/bg-desktop.svg);
+  background-size: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color: hsl(257, 40%, 49%);
 }
 
-#main-bg {
-  margin-top: 40px;
-  margin-left: 75px;
-}
-#main-banner {
-  height: 200px;
-  width: 250px;
+#main-logo{
+    height: 40px;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
 }
 
-#intro {
-  font-family: "Open Sans", sans-serif;
+#main-illustration{
+    height: 350px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+
+#main-tag{
+  font-family: 'Poppins', sans-serif;
   color: white;
+  font-size: 2rem;
   font-weight: 600;
-  margin-top: 20px;
-  margin-left: 100px;
-  font-size: 20px;
+  margin-left: 46rem;
+  margin-top: -21rem;
 }
 
-#desc-text {
+#main-intro{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   color: white;
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 1rem;
+  margin-left: 45rem;
+  margin-top: 2.5rem;
 }
 
-#reg {
-  width: 190px;
-  height: 40px;
-  border-radius: 16px;
+
+#reg{
+  margin-left: 45rem;
+  margin-top: 2rem;
+  height: 3rem;
+  width: 8rem;
   border: 2px solid white;
-  margin-left: 120px;
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+
 }
 
-#social-media {
-  margin-top: 20px;
-  margin-left: 180px;
+#reg:hover{
+  background-color: hsl(300, 69%, 71%);
+  border: 2px solid black;
+}
+
+#soc-row{
+  margin-left: 75rem;
+  margin-top: 1.5rem;
+}
+
+
+#social-media{
+  margin-top: 10rem;
+}
+
+footer{
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution{
+  font-size: 2rem;
+}
+
+
+#me{
+  color: blue;
+}
+
+@media (max-width: 767.98px) {
+  #container{
+    height: 325vh;
+    width: 330vw;
+    background-position: center top;
+  }
+
+  #main-logo{
+    height: 30px;
+    margin-top: 1.5rem;
+}
+
+
+#main-illustration{
+    height: 200px;
+    margin-top: 1.6rem;
+    margin-left: 4rem;
+
+
+
+
 }
