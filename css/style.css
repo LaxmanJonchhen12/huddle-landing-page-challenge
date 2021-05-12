@@ -102,6 +102,10 @@ footer{
   color: blue;
 }
 
+.imgh{
+  height: 40px;
+}
+
 @media (max-width: 767.98px) {
   #container{
     height: 325vh;
@@ -129,7 +133,7 @@ footer{
 }
 
 #main-intro{
-    font-size: 1rem;
+    font-size: 4vw;
     margin-left: 4rem;
     margin-top: 3.5rem;
     text-align: justify;
@@ -154,8 +158,8 @@ footer{
 
 footer{
   position: absolute;
-    top: 780px;
-    left: 10px;
+    top: 838px;
+    left: 45px;
 }
 
 }
