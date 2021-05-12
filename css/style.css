@@ -129,21 +129,22 @@ footer{
 }
 
 #main-intro{
-  font-size: 0.9rem;
-  margin-left: 2rem;
-  margin-top: 2.5rem;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top: 3.5rem;
+    text-align: justify;
 }
 
 
 #reg{
-  margin-left: 6rem;
-  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-top: 3rem;
   height: 3rem;
-  width: 13rem;
+  width: 15rem;
 }
 
 #soc-row{
-  margin-left: 10rem;
+  margin-left: 13rem;
    /*margin-top: 0.5rem;*/
 }
 
@@ -154,6 +155,7 @@ footer{
 footer{
   position: absolute;
     top: 780px;
+    left: 10px;
 }
 
 }
