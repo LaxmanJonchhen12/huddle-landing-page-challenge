@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -16,8 +16,7 @@ a{
   color: white;
 }
 
-
-#container{
+#container {
   height: 100vh;
   background-image: url(../images/bg-desktop.svg);
   background-size: center center;
@@ -25,21 +24,20 @@ a{
   background-color: hsl(257, 40%, 49%);
 }
 
-#main-logo{
-    height: 40px;
-    margin-top: 2.5rem;
-    margin-left: 2.5rem;
+#main-logo {
+  height: 40px;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
 }
 
-#main-illustration{
-    height: 350px;
-    margin-top: 4rem;
-    margin-left: 4rem;
+#main-illustration {
+  height: 350px;
+  margin-top: 4rem;
+  margin-left: 4rem;
 }
 
-
-#main-tag{
-  font-family: 'Poppins', sans-serif;
+#main-tag {
+  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 2rem;
   font-weight: 600;
@@ -47,8 +45,8 @@ a{
   margin-top: -21rem;
 }
 
-#main-intro{
-  font-family: 'Open Sans', sans-serif;
+#main-intro {
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: white;
   font-size: 1rem;
@@ -56,35 +54,32 @@ a{
   margin-top: 2.5rem;
 }
 
-
-#reg{
+#reg {
   margin-left: 45rem;
   margin-top: 2rem;
   height: 3rem;
   width: 8rem;
   border: 2px solid white;
   border-radius: 25px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400; 
-
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
-#reg:hover{
+#reg:hover {
   background-color: hsl(300, 69%, 71%);
   border: 2px solid black;
 }
 
-#soc-row{
+#soc-row {
   margin-left: 75rem;
   margin-top: 1.5rem;
 }
 
-
-#social-media{
+#social-media {
   margin-top: 4rem;
 }
 
-footer{
+footer {
   background-color: hsl(257, 40%, 49%);
   color: white;
   height: 2rem;
@@ -93,75 +88,71 @@ footer{
   justify-content: center;
 }
 
-.attribution{
+.attribution {
   font-size: 2rem;
 }
 
-
-#me{
+#me {
   color: blue;
 }
 
-.imgh{
+.imgh {
   height: 40px;
   padding: 5px;
 }
 
 @media (max-width: 767.98px) {
-  #container{
-    height: 900px;
-    width: 640px;
+  #container {
+    height: 950px;
+    width: 538px;
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
   }
 
-  #main-logo{
+  #main-logo {
     height: 30px;
     margin-top: 1.5rem;
-}
+  }
 
-
-#main-illustration{
+  #main-illustration {
     height: 250px;
     margin-top: 1.6rem;
     margin-left: 4rem;
-}
+  }
 
-#main-tag{
-  font-size: 1.9rem;
-  font-weight: 600;
-  margin-left: 5rem;
- margin-top: 2.2rem;
-}
+  #main-tag {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-left: 5rem;
+    margin-top: 2.2rem;
+  }
 
-#main-intro{
+  #main-intro {
     font-size: 2.7vw;
     margin-left: 4rem;
     margin-top: 3.5rem;
     text-align: justify;
-}
+  }
 
+  #reg {
+    margin-left: 8rem;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 15rem;
+  }
 
-#reg{
-  margin-left: 8rem;
-  margin-top: 3rem;
-  height: 3rem;
-  width: 15rem;
-}
+  #soc-row {
+    margin-left: 13rem;
+    /*margin-top: 0.5rem;*/
+  }
 
-#soc-row{
-  margin-left: 13rem;
-   /*margin-top: 0.5rem;*/
-}
+  #social-media {
+    margin-top: 4rem;
+  }
 
-#social-media{
-  margin-top: 4rem;
-}
-
-footer{
-  position: absolute;
+  footer {
+    position: absolute;
     top: 838px;
     left: 45px;
-}
-
+  }
 }
