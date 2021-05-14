@@ -103,7 +103,7 @@ footer {
 
 @media (max-width: 767.98px) {
   #container {
-    height: 965px;
+    height: 970px;
     width: 538px;
     background-size: contain;
     background-position: top center;
@@ -128,8 +128,8 @@ footer {
   }
 
   #main-intro {
-    font-size: 2.7vw;
-    margin-left: 4rem;
+    font-size: 2rem;
+    margin-left: 5.5rem;
     margin-top: 3.5rem;
     text-align: justify;
   }
@@ -153,6 +153,6 @@ footer {
   footer {
     position: absolute;
     top: 838px;
-    left: 45px;
+    left: 50px;
   }
 }
