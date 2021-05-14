@@ -128,7 +128,7 @@ footer {
   }
 
   #main-intro {
-    font-size: 3vw;
+    font-size: 5vw;
     margin-left: 5.5rem;
     margin-top: 3.5rem;
     text-align: justify;
@@ -153,7 +153,7 @@ footer {
 
   footer {
     position: absolute;
-    top: 848px;
-    left: 57px;
+    top: 850px;
+    left: 59px;
   }
 }
