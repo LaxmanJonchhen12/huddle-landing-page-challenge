@@ -103,19 +103,19 @@ footer {
 
 @media (max-width: 767.98px) {
   #container {
-    height: 950px;
+    height: 965px;
     width: 538px;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: top center;
   }
 
   #main-logo {
-    height: 30px;
+    height: 35px;
     margin-top: 1.5rem;
   }
 
   #main-illustration {
-    height: 250px;
+    height: 260px;
     margin-top: 1.6rem;
     margin-left: 4rem;
   }
