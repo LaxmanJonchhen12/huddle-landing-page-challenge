@@ -123,37 +123,36 @@ footer {
   #main-tag {
     font-size: 1.9rem;
     font-weight: 600;
-    margin-left: 5rem;
+    margin-left: 6rem;
     margin-top: 2.2rem;
   }
 
   #main-intro {
-    font-size: 4vw;
-    margin-left: 5rem;
-    margin-top: 3.5rem;
+    font-size: 5vw;
+    margin-left: 6rem;
+    margin-top: 2.2rem;
     text-align: justify;
+    max-width: 300px;
   }
 
   #reg {
-    margin-left: 8rem;
-    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
     height: 3rem;
     width: 15rem;
     font-size: 0.9rem;
   }
 
   #soc-row {
-    margin-left: 12rem;
+    margin-left: 11rem;
     /*margin-top: 0.5rem;*/
   }
 
   #social-media {
-    margin-top: 4rem;
+    margin-top: 1.5rem;
   }
 
   footer {
-    position: absolute;
-    top: 880px;
-    left: 110px;
+    display: none;
   }
 }
